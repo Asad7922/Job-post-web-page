@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-bar {
+    background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+}
+
+.navbar-brand img {
+    width: 150px;
+}
+
+.nav-link {
+    font-size: 16px;
+    color: #fff !important;
+    margin: 5px;
+}
+
+.navbar-nav {
+    text-align: right;
+    float: right;
+}
+
+.menu-bar .navbar-toggler {
+    outline: none;
+    border: none;
+}
+
+.banner {
+    height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://media.istockphoto.com/id/1187179171/photo/futuristic-office.jpg?b=1&s=612x612&w=0&k=20&c=ciwozje9QhYI0vEin8MXvcPFUngGxFStZ4epCiJj1RE=);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.banner h1 {
+    padding-top: 170px;
+    font-size: 50px;
+    letter-spacing: 6px;
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.search-job {
+    padding: 30px 0;
+    margin: -50px 6% 50px;
+    background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+
+}
+
+.search-job .form-control {
+    max-width: 250px;
+    display: inline-flex;
+    margin: 10px 5px;
+    border-radius: 0;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.search-job .btn-primary {
+    border-radius: 0;
+    box-shadow: none !important;
+    border: none;
+    display: inline-flex;
+    margin: 5px;
+    padding: 5px 20px;
+}
+
+/*----recruiters section---*/
+#recruiters {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#recruiters h2 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+h2::before {
+    background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+    content: '';
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    z-index: -10;
+    margin-top: -15px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 90px;
+}
+
+#recruiters img {
+    max-width: 150px;
+    margin: 10px 20px;
+
+}
+
+/*-----jobs section------*/
+#jobs {
+    background: #f8f8fa;
+    padding: 50px 0;
+}
+
+.company-details {
+    box-shadow: 0 2px 70px 0 rgba(189, 139, 139, 0.18);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.job-updates {
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.job-updates .bi {
+    margin-top: 5px;
+    margin-right: 10px;
+    color: #77d1b1;
+}
+
+.job-updates small {
+    background: #efefef;
+    padding: 1px 5px;
+    margin: 0 5px;
+}
+
+.job-updates p {
+    margin-bottom: 0 !important;
+}
+
+.job-updates a {
+    text-decoration: none !important;
+    color: #b6bed2;
+    float: right;
+}
+
+.apply-btn {
+    height: 40px;
+    background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+    padding: 7px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.apply-btn .btn-primary {
+    padding: 0 30px;
+    float: right;
+    border-radius: 0;
+    box-shadow: none !important;
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.page-link li {
+    height: 25px;
+    width: 25px;
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.page-link li:hover,
+.active {
+    color: #fff;
+    background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+}
+
+.left-arrow {
+    color: #999;
+}
+
+.right-arrow {
+    color: #929b29;
+}
+/*---------SITE STATS SECTION--------*/
+#site-stats{
+    padding: 100px 0;
+}
+#site-stats h2{
+    margin-bottom: 30px;
+}
+.stat-box{
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 2px 70px 0 rgba(189, 139, 139, 0.18);
+}
+.stat-box .bi{
+    font-size: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px ;
+}
+/*----app banner------*/
+#app-banner{
+    background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+    padding: 50px 0;
+}
+#app-banner h1{
+    margin-top: 20px;
+    color: #fff;
+}
+#app-banner img{
+    width: 150px;
+    margin: 50px 0;
+}
+/*-----footer section-----*/
+#social-media{
+    background-color: #f8f9fa;
+    padding-top: 100px;
+   }
+   #social-media p{
+       font-size: 36px;
+       font-weight: 600;
+       margin-bottom: 30px;
+   }
+   .social-icons img{
+       width: 60px;
+       transition: 0.5s;
+   }
+   .social-icons a:hover img{
+   transform: translateY(-10px);}
+   .asad{
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+    transition: 0.5s;
+    font-size: 25px;
+    font-weight: 600;
+}
+.asad:hover{
+    color: #6db9ef;
+}
+hr{
+   background-color: #fff;
+}
